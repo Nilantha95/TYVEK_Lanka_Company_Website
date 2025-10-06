@@ -3,6 +3,7 @@ import Link from 'next/link';
 
 const navItems = [
   { name: 'HOME', href: '/' },
+  // FIX: Changed href from '../app/productpage.tsx' to the correct route path '/products'
   { name: 'PRODUCTS', href: '/products' },
   { name: 'CUSTOMIZE', href: '/customize' },
   { name: 'WHY TYVEK?', href: '/why-tyvek' },
